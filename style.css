@@ -1,0 +1,547 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aliceblue;
+    ;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+    padding: 10px 10px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.head li {
+    list-style: none;
+    padding-top: 15px;
+}
+.head li a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.sign {
+    color: #007E85;
+    text-align: center;
+}
+
+.login {
+    background-color: #007E85;
+    color: white;
+    font-weight: 700;
+    align-items: center;
+    width: 90px;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+/* header complete */
+.background {
+    width: 100%;
+}
+
+.background img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.contact h1 {
+    font-size: 50px;
+}
+
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: 2px solid #007E85;
+
+}
+
+input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: 2px solid #007E85;
+
+}
+
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: 2px solid #007E85;
+
+}
+
+/* Example CSS for styling the label and select box */
+label {
+    display: block;
+    /* Make the label display on a new line */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    /* Make the select box full width */
+    padding: 10px;
+    border: 2px solid #007E85;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Example CSS for styling the message box input */
+#message-box {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #007E85;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    height: 120px;
+    /* Adjust the height to control the size of the message box */
+}
+
+.container1 {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.submit p {
+    width: 250px;
+    background-color: #007E85;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    /* Make the text center horizontally within the div */
+}
+
+.subscribe {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.minisub {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.minisub>input[type="email"] {
+    width: 20%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: 2px solid #007E85;
+
+}
+
+.minisub>p {
+    background-color: #007E85;
+    color: white;
+    border-radius: 9px;
+    padding: 5px 3px;
+    width: 100px;
+    margin-top: 8px;
+}
+
+#footer {
+    background-color: #007e85bd;
+    color: white;
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#footer ul li {
+    list-style: none;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .minisub>input[type="email"] {
+        width: 200px;
+        /* Maintain the same width on smaller screens */
+    }
+}
+
+/* ////////INDEX PAGE CSS */
+
+.backgrond {
+    width: 100%;
+    background-image: url('img/background.png');
+    /* Replace 'background.png' with the actual path to your background image */
+    background-size: cover;
+    /* Adjust the background size as needed */
+    background-repeat: no-repeat
+}
+
+
+.sec1 {
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+
+}
+
+.btns {
+    display: flex;
+    gap: 5px;
+    margin-top: 12px;
+}
+
+.btn1 {
+    border: 2px solid #007E85;
+    padding: 5px 5px;
+    background-color: #007E85;
+    border-radius: 15px;
+    text-align: center;
+    width: 150px;
+}
+
+.btn2 {
+    border: 2px solid #007E85;
+    padding: 5px 9px;
+    border-radius: 15px;
+    text-align: center;
+    width: 150px;
+}
+
+.appointment {
+    width: 300px;
+    background-color: white;
+    border: 2px solid white;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin: 50px auto 30px auto;
+}
+
+.appointment>input {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.sub {
+    margin-top: 12px;
+    text-align: center;
+    background-color: #007E85;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.find {
+    background-color: aliceblue;
+    margin-top: 15px;
+}
+
+.minifind {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.minifind input {
+    width: 150px;
+    padding: 5px 5px;
+
+}
+
+/* CSS for the circular span */
+.on {
+    display: inline-block;
+    border: 2px solid;
+    padding-top: 2px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px; 
+    background-color: white;
+    
+  }
+  .on span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #3498db;
+    border-radius: 50%;
+    margin-right: -35px; 
+  }
+.search >p{
+    text-align: center;
+    background-color: #007E85;
+   padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+
+
+}
+.serivce{
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.serivce h1{
+    color: #007E85;
+  
+}
+
+
+.sec2{
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    padding: 5px 5px;
+    margin: 10px auto;
+    
+}
+.sec2 img{
+    width: 100%;
+    border-radius: 5px ;
+    padding: 5px;
+}
+.sec2 h4{
+    color: #007E85;
+    padding: 5px 5px;
+}
+.sec2 p {
+    margin-top: 10px;
+    color: #007E85;
+}
+.costumer{
+  background-color: beige;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.faq h1{
+    color: black;
+}
+.box{
+    background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      width: 270px;
+      border-radius: 5px;
+      margin: 10px auto;
+      padding: 10px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .appointment {
+        max-width: 100%;
+        /* Allow the container to take full width on small screens */
+    }
+}
+
+.box1{
+  margin-top: 100px;
+}
+.box1 span{
+    color: greenyellow;
+}
+.box1 .blue{
+    color: #007E85;
+}
+
+.Appointments p{
+    text-align: center;
+    background-color: #007E85;
+   padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.docpic{
+    width: 100%;
+    position: relative;
+}
+.docpic img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 57px;
+}
+.man{
+    width: 100%;
+}
+.man img{
+    width: 100%;
+}
+
+.find1{
+    margin-top: 30px;
+    background-color: antiquewhite;
+}
+.minibox{
+    display: flex;
+    gap: 10px;
+  align-items: center;
+  margin-top: 50px;
+}
+.watch p{
+    text-align: center;
+    background-color: white;
+   padding: 10px 10px;
+    color: black;
+    border-radius: 10px;
+    width: 160px;
+}
+.watch p i{
+    color: #007E85;
+}
+.result{
+    text-align: center;
+    padding-top:20px  ;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #007E85;
+}
+.online{
+    text-align: center;
+    padding: 10px 5px;
+}
+.online h2{
+    color: #007E85;
+}
+
+.minipic{
+    width: 100%;
+}
+.minipic img{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.patient{
+  
+    margin: 70px auto;
+    text-align: center;
+  
+}
+.patient h3{
+    color: #007E85;
+    margin-top: 30px  ;
+}
+.btn3{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.minibtn p{
+    text-align: center;
+    background-color: #007E85;
+   padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+}
+.minibtn2 p{
+    text-align: center;
+    background-color:wheat;
+   padding: 10px 10px;
+    color:  #007E85;
+    border-radius: 10px;
+    width: 130px;
+}
+.founder{
+    background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      width: 270px;
+      border-radius: 5px;
+      margin: 10px auto;
+      padding: 10px;
+      text-align: center;
+}
+.founder h4{
+    color: #007E85;
+}
+.founder h6 span{
+    margin: 5px;
+    color: #007E85;
+}
+.founder img{
+    margin: 10px;
+}
+.testimonial{
+    background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      width: 300px;
+      border-radius: 5px;
+      margin: 10px auto;
+      padding: 10px;
+}
+.testimonial img{
+    margin: 10px;
+}
+.testimonial h6{
+    color: #007E85;
+}
+.trust{
+    color: #007E85;
+    text-align: center;
+    margin: 20px;
+}
+.youtube i{
+    color: red;
+    margin-right: 5px;
+}
+.Twitter i{
+    color:#007E85;
+}
+.Facebook i{
+    color:#007E85;
+}
+#social{
+    text-align: center;
+}
